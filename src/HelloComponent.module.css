@@ -3,8 +3,5 @@
 @tailwind utilities;
 
 @layer components {
-    .hello {
-        color: red;
-        @apply text-3xl font-bold underline;
-    }
+
 }

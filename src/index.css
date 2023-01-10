@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+hello-solid {
+    --color: yellow;
+}
+
+#hello {
+    --color: red;
+}
