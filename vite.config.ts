@@ -11,6 +11,9 @@ export default defineConfig({
             name: "hello-solid",
             fileName: (format) => `hello-solid.${format}.js`
         },
-        outDir: "dist/web"
+        outDir: "dist/web",
+        rollupOptions: {
+            plugins: []
+        }
     }
 });
