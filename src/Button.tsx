@@ -1,4 +1,4 @@
-import {createSignal} from 'solid-js';
+import {Component, createSignal} from 'solid-js';
 import {customElement } from 'solid-element';
 
 interface ButtonProps {
@@ -6,17 +6,15 @@ interface ButtonProps {
     onClick: () => void;
 }
 
-function Button(props: ButtonProps) {
-    const [classes] = createSignal('button');
-    const {label, onClick} = props;
+const Button: Component<ButtonProps> = (props) => {
 
-    return {
-        classes,
-        label,
-        onClick,
-    };
+const {label, onClick} = props;
+    return (
+        <button onClick={onClick}>{label}!</button>
+    )
 }
 
+// window.customElements.define('solid-button', Button);
 customElement('solid-button', {
     "label": "button",
     onClick: () => {}
