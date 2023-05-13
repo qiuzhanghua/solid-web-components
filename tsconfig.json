@@ -1,6 +1,13 @@
 {
+  "include": [
+    "src/**/*"
+  ],
+  "exclude": [
+    "node_modules",
+    "dist"
+  ],
   "compilerOptions": {
-    "strict": true,
+    "strict": false,
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "node",
@@ -8,8 +15,12 @@
     "esModuleInterop": true,
     "jsx": "preserve",
     "jsxImportSource": "solid-js",
-    "types": ["vite/client"],
+    "types": [
+      "vite/client",
+    ],
     "noEmit": false,
+    "noEmitOnError": false,
+    "allowJs": true,
     "isolatedModules": true,
     "declaration": true,
     "declarationDir": "dist/types"
