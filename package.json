@@ -1,6 +1,6 @@
 {
-  "name": "@qiuzhanghua/solid-element",
-  "version": "0.0.3",
+  "name": "@qiuzhanghua/solid-web-components",
+  "version": "0.0.1",
   "description": "Use solidjs in web components",
   "main": "./dist/index.umd.js",
   "module": "./dist/index.es.js",

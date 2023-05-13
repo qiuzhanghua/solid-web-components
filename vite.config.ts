@@ -9,7 +9,7 @@ export default defineConfig({
         target: "es6",
         lib: {
             entry: "src/index.ts",
-            name: "solid-element",
+            name: "solid-web-components",
             fileName: (format) => `index.${format}.js`
         },
         outDir: "dist"
