@@ -7,11 +7,11 @@ interface ButtonProps {
 }
 
 const Button: Component<ButtonProps> = (props) => {
-        const {label, onClick} = props;
-        // const [label] = createSignal(props.label);
-        // const [onClick] = createSignal(props.onClick);
-        return <button onClick={onClick}>{label}!</button>;
-}
+  const { label, onClick } = props;
+  // const [label] = createSignal(props.label);
+  // const [onClick] = createSignal(props.onClick);
+  return <button onClick={onClick}>{label}!</button>;
+};
 
 export default Button;
 

@@ -9,8 +9,8 @@ export default defineConfig({
         target: "es6",
         lib: {
             entry: "src/index.ts",
-            name: "hello-solid",
-            fileName: (format) => `hello-solid.${format}.js`
+            name: "solid-element",
+            fileName: (format) => `index.${format}.js`
         },
         outDir: "dist"
     }

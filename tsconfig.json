@@ -4,25 +4,29 @@
   ],
   "exclude": [
     "node_modules",
-    "dist"
   ],
   "compilerOptions": {
     "strict": false,
-    "target": "ESNext",
     "module": "ESNext",
-    "moduleResolution": "node",
+
     "allowSyntheticDefaultImports": true,
     "esModuleInterop": true,
-    "jsx": "preserve",
+
     "jsxImportSource": "solid-js",
     "types": [
       "vite/client",
     ],
     "noEmit": false,
     "noEmitOnError": false,
-    "allowJs": true,
     "isolatedModules": true,
+
+    "declarationDir": "dist/types",
+    "emitDeclarationOnly": true,
     "declaration": true,
-    "declarationDir": "dist/types"
+    "allowJs": true,
+    "jsx": "preserve",
+    "target": "esnext",
+    "outDir": "dist/types",
+    "moduleResolution": "node",
   }
 }

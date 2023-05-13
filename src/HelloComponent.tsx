@@ -14,4 +14,6 @@ const HelloComponent: Component<HelloProps> = (props) => {
   );
 };
 
+export default HelloComponent;
+
 customElement("hello-solid", { style2: "color: blue;" }, HelloComponent);
