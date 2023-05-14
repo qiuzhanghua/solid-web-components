@@ -1,18 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#000000" />
-    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico" />
-    <title>Solid App</title>
-  </head>
-  <body>
-    <noscript>You need to enable JavaScript to run this app.</noscript>
-    <hello-solid id="hello" style2="color: green;"></hello-solid>
-    <p></p>
-    <solid-button id="button" label="Click me" onClick="console.log('Hi')"></solid-button>
-		<p is="word-count">Click me</p>
-    <script src="/src/index.ts" type="module"></script>
-  </body>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    <meta name="theme-color" content="#000000"/>
+    <link rel="shortcut icon" type="image/ico" href="/src/assets/favicon.ico"/>
+    <script type="module" src="/dist/index.js"></script>
+    <title>Solid Web Components</title>
+</head>
+<body>
+<noscript>You need to enable JavaScript to run this app.</noscript>
+<tj-hello id="hello" style2="color: green;"></tj-hello>
+<p></p>
+<tj-button id="button" label="This is a Button" onClick="console.log('Hi')"></tj-button>
+<p is="tj-word-count">Click me</p>
+</body>
 </html>

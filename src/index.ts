@@ -1,6 +1,3 @@
-// src/index.ts
-import "tailwindcss/tailwind.css";
-import "./index.css";
-import "./HelloComponent.tsx";
-import "./Button.tsx";
-import "./WordCount.ts";
+import "./hello/Hello.tsx";
+import "./button/Button.tsx";
+import "./ParagraphWordCount.ts";

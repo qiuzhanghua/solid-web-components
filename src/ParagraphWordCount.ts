@@ -1,4 +1,5 @@
-class WordCount extends HTMLParagraphElement {
+// Copied from https://developer.mozilla.org/en-US/docs/Web/Web_Components
+class ParagraphWordCount extends HTMLParagraphElement {
   constructor () {
     // Always call super first in constructor
     super();
@@ -34,4 +35,4 @@ class WordCount extends HTMLParagraphElement {
 }
 
 // Define the new element
-customElements.define("word-count", WordCount, { extends: "p" });
+customElements.define("tj-word-count", ParagraphWordCount, { extends: "p" });
